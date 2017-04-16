@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="e2604ac4-9e63-44c0-82d9-877991638494" name="GUIComponent" linkedPackageId="8d56e498-2b2e-41b6-b630-56043f25515d" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7ac359ed-c54f-4c66-a1f0-b0f2ca3519f3" name="CPictureShow" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="62b3eb30-d95e-4abc-8593-ae6c1beedfca" />
+        <ownedAttributesInternal>
+          <property Id="4cede8a8-4be1-418c-bd9d-3b228c0b3282" name="QGraphicsView *view;" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cd383c56-7fe2-4be5-8604-3caa7af0d311" />
+          </property>
+          <property Id="8e58efab-30bd-43c8-b6b3-d5c8c93740e6" name="PictureScene *scene;" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d10b9a6d-dd12-497f-9e9a-064d830e3a78" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="6d42e93b-73ef-472b-91cc-1131b8ab517e" name="backgroundButtonGroupClicked" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="45a3e91e-263f-4e69-80cc-6f59d1438220" />
+          </operation>
+          <operation Id="061f2001-8f59-4eab-aae4-7994770e6c10" name="buttonGroupClicked" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="cef3bc3b-3014-44f8-9b9e-b0991fc1c0c1" />
+          </operation>
+          <operation Id="808cfa6f-08cb-481c-bfcc-bb0a0f061088" name="deleteItem" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9a12319d-54dc-4171-b6d4-58729c751245" />
+          </operation>
+          <operation Id="e0d4ac24-2428-483d-a64e-323bc45f3347" name="pointerGroupClicked" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1ce05405-8ced-419e-a6c0-de811cc9edfa" />
+          </operation>
+          <operation Id="967fade8-157d-40c4-a5fa-ee0478a4f579" name="bringToFront" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9ef1ef7d-a5fa-4252-9563-f718ec9b1e7a" />
+          </operation>
+          <operation Id="fe0e1060-2da4-497d-8cc4-e4e6c1bb4f26" name="sendToBack" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="fa34f5cb-c66b-4fff-a5f8-c83eeabe6c17" />
+          </operation>
+          <operation Id="c2709815-3b32-490d-9658-8b0543a56a22" name="itemInserted" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8eb29885-152d-4aff-b004-4bb6a48dcf45" />
+          </operation>
+          <operation Id="58b5a5a9-30a5-4683-b584-cce79cf2244d" name="sceneScaleChanged" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2c62d845-84b2-420f-a5e0-e86a922d4b2d" />
+          </operation>
+          <operation Id="c90c6614-dc38-4cfa-a68b-6c2bfbf4cc76" name="fillButtonTriggered" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9b4661df-294b-4f58-9eba-cab2932fb50d" />
+          </operation>
+          <operation Id="9d1b7ee8-6930-47bd-811c-9028192446ac" name="lineButtonTriggered" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a7380c27-b6cc-4d5e-b5af-d73c7fa969c4" />
+          </operation>
+          <operation Id="b43113eb-0e38-4752-a9f1-037855dba21c" name="cycleButtonTriggered" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="33aaf7c2-f011-40ec-8009-d343bcb9d156" />
+          </operation>
+          <operation Id="dc73878b-a3c5-4b1d-94e6-8592eece1484" name="triangleButtonTriggered" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="15ea617e-df50-4963-a092-2cab0667b8a8" />
+          </operation>
+          <operation Id="5b87e556-1a1a-4ba3-a645-be167f49b29c" name="quadrangleButtonTriggered" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ff7d74c4-ac6c-4311-aff6-cf5acb769f89" />
+          </operation>
+          <operation Id="f242d48a-3816-41ba-a541-40a31ca46e9f" name="itemSelected" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="879c3e22-97a5-4fcd-bddc-1d349f982e5e" />
+          </operation>
+          <operation Id="18b7d025-1667-4657-a808-1122215b498b" name="createToolBox" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="942e5f07-3d86-48c9-a57f-4f2a78988b30" />
+          </operation>
+          <operation Id="d318c531-f50a-4612-91ac-d3ad55bf16c9" name="createActions" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a65be3ec-5c42-480a-ac05-dc1fe03eb2fc" />
+          </operation>
+          <operation Id="24e83db4-6cf1-4e8c-aa70-239c9ccfd879" name="createMeus" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2e004f3a-41fc-4482-be35-c1394f39f924" />
+          </operation>
+          <operation Id="5bcbfa77-c471-4bd1-9273-6f7114843e23" name="createToolbars" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2452720b-c05b-4fc4-bb1a-afa708ed5733" />
+          </operation>
+          <operation Id="9973f3a4-362f-476d-b0df-28ecdc555e56" name="readXML" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3a66a3a2-47eb-49b6-b791-3bc0cdd5b34b" />
+          </operation>
+          <operation Id="a5d39e9d-3afe-46da-a7f9-1d69167b096d" name="writeXML" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="528f95de-98a5-412a-9b73-a14f17ca72bb" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="8d56e498-2b2e-41b6-b630-56043f25515d" name="ModelingProject1">
+    <elementDefinition Id="b2717193-7a6c-49a7-bc92-75d0d52040ce" />
+    <profileInstances>
+      <packageHasProfileInstances Id="1706db8c-7adf-43cb-984a-d8a99b1bc4e6">
+        <profileInstance Id="81dab5eb-a00f-4421-812a-0df8a2e3a854" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="3d873b64-c056-440e-bfe8-df0a56bd5f80">
+        <profileInstance Id="45ab3958-f473-4ca8-94dd-1f16961710e6" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

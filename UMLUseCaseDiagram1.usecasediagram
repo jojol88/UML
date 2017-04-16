@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" dslVersion="1.0.0.0" Id="2b4d0f0a-d4bc-4e61-abc6-89b1ba362fa1" name="UMLUseCaseDiagram1" linkedPackageId="8c7289eb-a71d-44da-b248-c1377abfe8a1" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="9f2f07fe-db66-4c2f-a645-719404001148" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="d21eee0d-8980-4dfd-9cc0-a45b71fd8265" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="964c40b8-fbc7-4831-984f-22ce2e505577">
+          <propertyInstance Id="a10add9b-076a-43a8-9832-6b7f29cf6186" name="BaseName">
+            <elementDefinition Id="486efe8b-c299-4b79-98fb-8f7a0ce6ce83" />
+          </propertyInstance>
+          <elementDefinition Id="f57220d1-c671-47ad-98a4-88918f189631" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="31f5adab-3fb2-4f35-9391-4b2668e120d2">
+          <propertyInstance Id="9243c12f-67c9-450f-8b89-03ef0849ac67" name="ClrAttributes">
+            <elementDefinition Id="9be3782f-0162-4944-8bdb-b3bb721528cf" />
+          </propertyInstance>
+          <elementDefinition Id="981c1ec1-e3e9-4600-92a5-f6b516d759fa" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="a5d0ff08-6cf5-47b7-9957-2b20f7175acf">
+          <propertyInstance Id="e31b65f4-4f6e-4096-b617-5d1d95c88c54" name="Usings">
+            <elementDefinition Id="3a6589dd-9869-45a7-96f7-698d3736e97c" />
+          </propertyInstance>
+          <elementDefinition Id="8b35d3e1-8275-4315-9822-a9272ce3aaf9" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="848435aa-09eb-4dbc-a7ac-b22d79ff7bbc" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="2814c09d-0114-4ae1-a0b5-8dd7fda87400" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="248473ef-a053-4628-8c09-074e6d1cf641">
+          <propertyInstance Id="504257d6-9f09-4a59-8397-b801bbe84c9c" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="db00b5f1-21f8-4891-9616-a82407f6e530" />
+          </propertyInstance>
+          <elementDefinition Id="313793fb-91a5-487b-9d43-c5b2920a955a" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="dee69109-6cc9-4397-894a-88b58db52441">
+          <propertyInstance Id="dc12111c-504d-400b-9147-4b4e32ff685e" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="f63697d5-3afd-4f61-b41b-ed8f2664b5a7" />
+          </propertyInstance>
+          <elementDefinition Id="022cf24a-587d-4c72-bb0c-135aea3ec96b" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="2ea4cdb3-0e24-433d-bc6d-27cba3568859">
+          <propertyInstance Id="77fa7199-9004-4edc-bc72-48839ca3e3af" name="ProjectPath" value="ClassTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|EnumTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|InterfaceTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|StructTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj">
+            <elementDefinition Id="be56954a-aaea-4f1d-a2d7-47e9c70a9c0f" />
+          </propertyInstance>
+          <elementDefinition Id="e9078ebf-9026-4904-979d-cb9e950545b1" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="7450f4da-e5d8-411b-83c9-b485f1d6e2cd">
+          <propertyInstance Id="59184bba-6cde-4164-bc34-3c9be4fd523c" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="ad607a97-af8e-4dc1-9be1-61ae322cb4ee" />
+          </propertyInstance>
+          <elementDefinition Id="08093b84-4f2b-4b5b-9804-df9ce85dda12" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="04a1a554-c9ac-48f9-afc1-75862098f3fe">
+          <propertyInstance Id="7e23e333-e4b0-4746-9cef-7bfcfe9dffcf" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="cb7d18e5-adeb-4490-a5fa-f9988f6b8ed6" />
+          </propertyInstance>
+          <elementDefinition Id="c240d246-8495-4361-bb12-8960fa9bed61" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="51ec86d2-0aa5-4e05-bf6d-5666507950af">
+          <propertyInstance Id="2cac3709-e6f5-4a6d-a74e-c4c68dfcbd92" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="ef7f54ab-adcc-4b0b-8839-97c79b3102c0" />
+          </propertyInstance>
+          <elementDefinition Id="c8210ba8-bd51-4f07-9773-93fa1a187b3f" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="8de19ad3-9a67-481c-b9e7-19a93e1fbd50">
+          <propertyInstance Id="5c94f0fc-ee30-4fed-b96b-7785cff48888" name="Parameters">
+            <elementDefinition Id="fdec6e95-fdaa-45c7-a032-c68178441504" />
+          </propertyInstance>
+          <elementDefinition Id="48b0d2c7-3859-44b4-8ae2-e9540c752114" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="964a2dce-c9e9-4ba2-bf50-64480f41855d">
+      <profileInstance Id="c7cc038f-5fd1-491c-8af9-f37985a1039f" name="CSharpProfile">
+        <elementDefinition Id="4d091f70-93a1-4188-ad6a-860d5c6b8890" />
+      </profileInstance>
+      <elementDefinition Id="44ffe85c-a26a-425e-988d-384c6e3588c3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="8f45c496-73f7-4f8a-8a0b-b8b462213a63">
+      <profileInstance Id="834a84a8-e5b3-47b1-b5cf-46f8ed03c731" name="TextTemplateBindings">
+        <elementDefinition Id="12abda1d-36bf-4094-963a-ae731fa4f5e9" />
+      </profileInstance>
+      <elementDefinition Id="a36a5e84-9b6e-49ff-b6e4-4f990b0fe6c0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="8974db28-48eb-4a17-a6a5-c7c84bfe01ed" name="Client" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9d3f0407-308d-4893-82e0-88501dd98d5e" />
+        <targetEnds>
+          <association Id="4e0ba046-10cf-41a7-a69c-216fe840a354" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="DrawFigure" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="34f47dc1-a278-40e1-b47f-550a6d81da29" LastKnownName="Create Picture" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dd7e169b-b817-4003-bce5-15d2bbac3ecb" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="96526c13-d34e-4f60-983c-ba7109446f90" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="95a8da47-0b00-41cd-8fc4-be5d1d47cd05" name="DrawFigure" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="dc3724b3-ba6e-4150-8d82-a6c91a2adf31" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9eedc709-485e-44e6-93c8-52c196748dd2" />
+          </association>
+          <association Id="490f2a8e-097b-47b9-ae63-96baf2516c12" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Save Picture" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d9bb342f-b2c5-4b5d-95e2-1c35b5e6766c" LastKnownName="Save Picture" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c40c658e-dc66-4abd-803a-7594d8cd4464" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6e03c154-4fe0-4dd1-b574-bb66d5a31348" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="29897020-8ecf-428a-9703-c749e374a607" name="Save Picture" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="050fcc3b-d239-474c-936d-f82618f5a5f2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a7d306e8-7127-4eec-945e-b9a1e63468b3" />
+          </association>
+          <association Id="f1c19a9d-9197-4af8-b460-72e095f0e8a1" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Read Picture" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="47fa0eaf-558f-4cd3-93a2-5c2180349dc7" LastKnownName="Read Picture" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="879813f3-710c-4cb6-b00c-89b401e6d24a" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e13998a2-fb64-4a50-9ef6-ac16abe80fdd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b4117679-18a0-46cd-8382-51ac862a4908" name="Read Picture" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="476c9822-445b-4e6f-9f38-4651d192dc51" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e825fe3f-70d2-4516-b104-55d9bc358970" />
+          </association>
+          <association Id="4ef5c5e8-5a3a-4810-9eb6-2f7ede346369" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Edit Picture" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1ad91fc8-2355-4f1e-b0a1-1b79131c8018" LastKnownName="Edit Picture" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6af8f2c6-b786-48b8-96b2-3b113f9031d9" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b280547e-b1f4-4de3-8915-28ec24bf2029" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ff198d7d-7289-4de5-aea7-a32701a3d9ec" name="Edit Picture" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d4fc4538-440f-4383-bb28-3b3d1ee1a814" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1a11730f-c19f-4a19-8643-3814a3b8afa4" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="cd104a7d-12d6-4513-b0b0-d5de0348d38a" name="Graphics editor" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="914aba5f-6141-42c3-b88b-50fba03dd2f8" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="34f47dc1-a278-40e1-b47f-550a6d81da29" name="Create Picture" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5764fee6-b987-48fd-8e2f-d2eb430c49e5" />
+        <suppliersInternal>
+          <dependency Id="b96d8c91-dcb6-4443-a92d-57a528a5dd5d">
+            <useCaseMoniker Id="1ad91fc8-2355-4f1e-b0a1-1b79131c8018" LastKnownName="Edit Picture" />
+            <elementDefinition Id="004df636-6ec4-44cf-9f0c-ff534a61a7d3" />
+          </dependency>
+        </suppliersInternal>
+        <additions>
+          <include Id="5c8bb923-9fa0-40a1-8269-06ceaf8133fd">
+            <useCaseMoniker Id="1ad91fc8-2355-4f1e-b0a1-1b79131c8018" LastKnownName="Edit Picture" />
+            <elementDefinition Id="ca204e27-79bc-4104-814c-9451dddc1ff7" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="cd104a7d-12d6-4513-b0b0-d5de0348d38a" LastKnownName="Graphics editor" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="d9bb342f-b2c5-4b5d-95e2-1c35b5e6766c" name="Save Picture" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3db7442b-225b-4899-8026-11e69a330270" />
+        <subjects>
+          <subsystemMoniker Id="cd104a7d-12d6-4513-b0b0-d5de0348d38a" LastKnownName="Graphics editor" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="47fa0eaf-558f-4cd3-93a2-5c2180349dc7" name="Read Picture" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e78d8fda-2eb6-4a5b-9e90-877999da4aae" />
+        <suppliersInternal>
+          <dependency Id="de63f428-f2dd-4b57-800f-3b4ff95c2c78">
+            <useCaseMoniker Id="1ad91fc8-2355-4f1e-b0a1-1b79131c8018" LastKnownName="Edit Picture" />
+            <elementDefinition Id="69a9c84f-7b6e-498d-846f-5a6c9d1dc1ec" />
+          </dependency>
+        </suppliersInternal>
+        <subjects>
+          <subsystemMoniker Id="cd104a7d-12d6-4513-b0b0-d5de0348d38a" LastKnownName="Graphics editor" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="1ad91fc8-2355-4f1e-b0a1-1b79131c8018" name="Edit Picture" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7852aea2-2b5b-4eaa-b976-dd5ddea259ff" />
+        <suppliersInternal>
+          <dependency Id="51976bbb-df20-4ae3-94d3-193aaff52f43">
+            <useCaseMoniker Id="d9bb342f-b2c5-4b5d-95e2-1c35b5e6766c" LastKnownName="Save Picture" />
+            <elementDefinition Id="80102a92-911b-4b93-96e5-6e197df45e0b" />
+          </dependency>
+        </suppliersInternal>
+        <subjects>
+          <subsystemMoniker Id="cd104a7d-12d6-4513-b0b0-d5de0348d38a" LastKnownName="Graphics editor" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="8c7289eb-a71d-44da-b248-c1377abfe8a1" name="ModelingProject1">
+    <elementDefinition Id="b2717193-7a6c-49a7-bc92-75d0d52040ce" />
+    <profileInstances>
+      <packageHasProfileInstances Id="86f6f5f6-8ee3-42f3-8a5d-ebdde1fc844f">
+        <profileInstance Id="e227dacf-d008-4508-b20a-897dcfe4aac9" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="83704fed-2980-4a1e-a1d8-9bcce7efc8cc">
+        <profileInstance Id="405b1b6c-b509-4020-90ee-ec98ed8b19a5" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" dslVersion="1.0.0.0" Id="50b49b1f-f571-4e7e-9bc2-90e3e1316b60" name="ClassDiagram" linkedPackageId="3825b32f-6224-4e64-91c3-9fe31162a46f" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="183c2f38-2b0a-48a1-8845-b46397028f5b" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="d21eee0d-8980-4dfd-9cc0-a45b71fd8265" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="edf69983-a47e-447e-8382-132e4fb403a9">
+          <propertyInstance Id="368f9ef0-a3fe-4c21-b25a-639d8c2b48c0" name="BaseName">
+            <elementDefinition Id="486efe8b-c299-4b79-98fb-8f7a0ce6ce83" />
+          </propertyInstance>
+          <elementDefinition Id="f57220d1-c671-47ad-98a4-88918f189631" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="10b0b88c-95c3-47cc-956a-06d223c2e815">
+          <propertyInstance Id="2436e869-d750-469d-a4d8-0d7818b1ec24" name="ClrAttributes">
+            <elementDefinition Id="9be3782f-0162-4944-8bdb-b3bb721528cf" />
+          </propertyInstance>
+          <elementDefinition Id="981c1ec1-e3e9-4600-92a5-f6b516d759fa" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d9c558e0-e814-4d8d-b926-3936b99700f8">
+          <propertyInstance Id="d3bd9800-40bf-456f-a44e-fc01e473dbaf" name="Usings">
+            <elementDefinition Id="3a6589dd-9869-45a7-96f7-698d3736e97c" />
+          </propertyInstance>
+          <elementDefinition Id="8b35d3e1-8275-4315-9822-a9272ce3aaf9" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="d8817a45-1f5a-4bbd-adab-f95b2dc693a5" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="2814c09d-0114-4ae1-a0b5-8dd7fda87400" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="643611e7-56c7-4068-8b0d-81b58a79da58">
+          <propertyInstance Id="c812365d-7ca4-49ae-b60b-55029b1cf3cc" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="db00b5f1-21f8-4891-9616-a82407f6e530" />
+          </propertyInstance>
+          <elementDefinition Id="313793fb-91a5-487b-9d43-c5b2920a955a" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ca7ed591-fa56-464b-b095-71b602294380">
+          <propertyInstance Id="d9e1230b-c668-4499-8078-2887a8917c16" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="f63697d5-3afd-4f61-b41b-ed8f2664b5a7" />
+          </propertyInstance>
+          <elementDefinition Id="022cf24a-587d-4c72-bb0c-135aea3ec96b" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="567f1b1f-0594-4eb1-b038-08149d1dcb8b">
+          <propertyInstance Id="d7c6b670-2eb5-4bf4-9354-fe226c808a60" name="ProjectPath" value="ClassTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|EnumTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|InterfaceTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|StructTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj">
+            <elementDefinition Id="be56954a-aaea-4f1d-a2d7-47e9c70a9c0f" />
+          </propertyInstance>
+          <elementDefinition Id="e9078ebf-9026-4904-979d-cb9e950545b1" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="fc7f6d52-a4b3-4678-8a48-3ae8644b61c0">
+          <propertyInstance Id="493b42ee-91dd-43fb-8b81-3c87db024589" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="ad607a97-af8e-4dc1-9be1-61ae322cb4ee" />
+          </propertyInstance>
+          <elementDefinition Id="08093b84-4f2b-4b5b-9804-df9ce85dda12" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="7f2b0289-09bd-4b08-a3d3-cadd6ab2a3ea">
+          <propertyInstance Id="8b578fd3-6738-484a-8ed1-5aae9ed65d90" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="cb7d18e5-adeb-4490-a5fa-f9988f6b8ed6" />
+          </propertyInstance>
+          <elementDefinition Id="c240d246-8495-4361-bb12-8960fa9bed61" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="6c183487-4f54-4351-98da-149c326860ad">
+          <propertyInstance Id="ab4b93a3-6681-4484-9ebc-db971f08edd5" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="ef7f54ab-adcc-4b0b-8839-97c79b3102c0" />
+          </propertyInstance>
+          <elementDefinition Id="c8210ba8-bd51-4f07-9773-93fa1a187b3f" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="f9c3fced-6631-4650-b8ef-d971c02b7c25">
+          <propertyInstance Id="4baca5de-968d-4a7b-9046-c3e07f665964" name="Parameters">
+            <elementDefinition Id="fdec6e95-fdaa-45c7-a032-c68178441504" />
+          </propertyInstance>
+          <elementDefinition Id="48b0d2c7-3859-44b4-8ae2-e9540c752114" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5849f529-e232-44f1-be74-9fbbb6a36bd3" name="CPictureScene" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ce91ba6a-ea5d-4982-97a4-e13c7f4137cc" />
+        <targetEnds>
+          <association Id="57e68c29-2d9f-4ea2-b382-a6a83e7b0133" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="44191cbd-c1cb-4fb8-874a-96216bd6e404" LastKnownName="CFigure" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8b925f9a-b2ee-4835-b6ff-2c7e4a0a8ce2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="546da2fc-9844-4595-acbe-e29ea28c6336" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a34af8fe-880c-4ba4-ad1f-d248a718618f" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="48058fcc-3a62-4ecf-bac8-ab733320ddfb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cf8a5c28-2f83-4ee3-baaf-ab3fbba65edf" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="80dd79d9-7aba-41d7-aa5c-a2f4ae772f22" name="QVector&lt;CFigure*&gt; mFigures;" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ee04db41-fe6f-41c1-ba2e-50ea80375c48" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="cf6e0992-f8ba-465a-bef4-d54765fe1aed" name="setMode" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2d6c9fbd-f5b2-4765-87d1-598afaafd4c2" />
+          </operation>
+          <operation Id="1287b8d2-aef5-477f-983c-c5218bc274ea" name="setItemType" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="61b9c724-df3d-4f49-b348-44f7246a4fdc" />
+          </operation>
+          <operation Id="e380cb60-8405-4f88-bbfa-3f86532f8ed7" name="itemInserted" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="252e0362-aefa-4eb9-bac2-846ecdb97fb4" />
+          </operation>
+          <operation Id="f1ffb19a-a068-42ed-8911-8ea65f839512" name="itemSelected" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="95af315b-a8e5-4637-afa6-7778bfc1815a" />
+          </operation>
+          <operation Id="9c5d6f9f-4b1c-485d-abeb-8b666633378a" name="itemChange" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b93d2cf7-5f52-4d76-ab1f-a97e3eb65ca2" />
+          </operation>
+          <operation Id="694deb18-abf2-46f2-b772-1b9873289aeb" name="removeItem" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="88804af6-6c18-414c-be98-32eefcb80c96" />
+          </operation>
+          <operation Id="ff69e341-bdae-4607-800e-c339eb7bfed8" name="setBack" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d5ad7ee3-bd23-4827-825d-95739f290af0" />
+          </operation>
+          <operation Id="60fde18e-aa68-43fd-ab7d-83eecc1c15f8" name="setFront" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="29247787-37e1-4303-9e37-2f81eaafd552" />
+          </operation>
+          <operation Id="ef68b9bf-e43a-4437-9d9d-ac51f48af666" name="paint" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b6020a1c-24e4-4876-a277-e995708717ca" />
+          </operation>
+          <operation Id="6117636e-47cf-4784-91ac-bd7b82496356" name="setFigureList" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="506fdc4b-6ab6-401e-90f5-62046e865539" />
+          </operation>
+          <operation Id="e2249fc6-69b0-4e9b-8c79-5fd39a598984" name="getFigureList" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0d759ef7-4194-40b5-a165-130da86a0765" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="44191cbd-c1cb-4fb8-874a-96216bd6e404" name="CFigure" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f6bdf51d-ab80-4111-a8be-6588474e6825" />
+        <ownedAttributesInternal>
+          <property Id="15046355-30fb-4fe6-b40c-32f4b2a7cf78" name="bool mPosition;" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bdecefd7-7aa0-40cd-904d-f071bccb5e72" />
+          </property>
+          <property Id="31e7ac1b-bfab-4385-bb56-742f18360eb7" name="QPoint mPoint[];" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8a5d831e-3f3d-49e5-a9df-4b36499cf069" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="e75370cd-4d72-4927-97f4-33378b5171d8" name="boundingRect" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ae7c0b52-dc66-41b5-ae46-4eb07586fa17" />
+          </operation>
+          <operation Id="f6f23083-9375-4938-97d3-49adab72aa98" name="changePosition" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4221c006-ba71-49e9-b21e-b16d92d2442e" />
+          </operation>
+          <operation Id="46b4bc02-cb66-4eec-9d2d-28eb5dcc0960" name="itemChange" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6abbebd2-f5a0-4dd4-be85-7c5b6028f68b" />
+          </operation>
+          <operation Id="8819d7ea-2fec-4abd-9887-e00fa54815e6" name="paint" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1c1a77ea-cdaf-4546-b212-f5c5a8c13646" />
+          </operation>
+          <operation Id="9569b968-b7a3-46eb-92ea-8450ade583db" name="shape" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7d0240b2-fe9b-488d-b1c0-59d2e10efed3" />
+          </operation>
+          <operation Id="7b49cab5-4715-4613-9117-eba2cc1758d4" name="setPoints" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="24725711-5fef-4759-a54e-649545dfd09c" />
+          </operation>
+          <operation Id="9ff337cb-8bdf-4c4e-a9ce-2a71819bb656" name="getPoints" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="934e0f06-82e3-4410-9302-66a6ee9d7a55" />
+          </operation>
+          <operation Id="fd8b28bb-c8e8-4d92-a60e-0a0790680caa" name="getId" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5d28bdcf-a1b9-4cee-8e4b-d853c6a07909" />
+          </operation>
+          <operation Id="a249e3ca-f389-4dee-9cca-b6c7c473a516" name="itemMove" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c5a6413d-f8ce-4298-9cf8-3a8773332977" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0ea0f9dc-7b17-42d8-9cda-0365b7631f44" name="CLineItem" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="63bede99-143f-45b1-8197-c8dec2b9df13" />
+        <generalsInternal>
+          <generalization Id="4d3cac06-a1b9-44c8-9be6-908261f3a15a" isSubstitutable="false">
+            <classMoniker Id="44191cbd-c1cb-4fb8-874a-96216bd6e404" LastKnownName="CFigure" />
+            <elementDefinition Id="76a30b5b-796f-4683-8dd0-ab6ff15c3e2d" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="6eabe9c0-d4eb-4f5b-9462-9751bac65ce8" name="QPoint mPoints1, mPoints2;" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3994b8fe-d82e-4229-bd3c-5b868c0d48e6" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="5afbd8d9-694e-4636-88b4-c4a75f790032" name="boundingRect" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="05776582-a563-4c61-91ea-7a6fbf7fd9fd" />
+          </operation>
+          <operation Id="08526c8e-d815-4e23-a3f2-7ce41ff66af1" name="itemChange" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3d21a1bc-41b7-47cd-b3b2-b50d500580a3" />
+          </operation>
+          <operation Id="6b79b1c3-0e6f-46dd-b846-4d52af2f0383" name="paint" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="92705e6e-0229-4980-aa8c-83aa12be249c" />
+          </operation>
+          <operation Id="3edbae21-462d-4b74-a32f-b202fffd050c" name="shape" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b805cb6b-5b2c-4afe-bffa-75b9b871156a" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="10b3daf2-0828-4988-9b16-564e703b565c" name="CTriangleItem" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="250ff956-33ab-4f88-9390-3ea50039dd58" />
+        <generalsInternal>
+          <generalization Id="708f7383-b96b-4361-b77d-1c555f49b88d" isSubstitutable="false">
+            <classMoniker Id="44191cbd-c1cb-4fb8-874a-96216bd6e404" LastKnownName="CFigure" />
+            <elementDefinition Id="78ea4061-e42a-468d-acb1-809a52540b79" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="711a29ac-d965-4276-928e-fd97eccbea9f" name="QPoint mPoints1, mPoints2, mPoint3;" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ae840eae-11c1-4aa0-804f-07a38e2bb4fd" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="95ea0e6d-5fa0-47ca-851c-0de99a07a5a2" name="boundingRect" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="adbc035a-69f9-4771-92b3-9a090c7ee1a1" />
+          </operation>
+          <operation Id="025fadef-a561-4604-9771-fd4140c503df" name="itemChange" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ab08c16d-faf8-43f8-a7c0-004fcdae9cd8" />
+          </operation>
+          <operation Id="23c8b1a5-2476-4ba4-a61c-8a592b1f6bfe" name="paint" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="fd4316fe-a2b7-4075-8b04-e3b0140242f8" />
+          </operation>
+          <operation Id="95c78da6-6891-437b-834d-fe08348fc0ad" name="shape" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="34486c7d-7491-44c0-adeb-2b463a5ec409" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ad88832c-4275-48c3-ba2b-753369f3095f" name="CPointItem" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7b344dc8-1e19-4eb8-8300-0e046d2f3a99" />
+        <generalsInternal>
+          <generalization Id="af38f60d-de41-43f7-8341-98ba4f0b2e2d" isSubstitutable="false">
+            <classMoniker Id="44191cbd-c1cb-4fb8-874a-96216bd6e404" LastKnownName="CFigure" />
+            <elementDefinition Id="ba63b2d2-2861-41e4-920a-dc2b237e6ef8" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="d9a890e0-2996-492c-8df5-e132cb17e772" name="QPoint mPoints1;" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f94cfb10-c557-48e4-b941-dc7f3d69d9e6" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="60d36340-1469-43ff-9f57-ace59d918903" name="boundingRect" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="eb5a2379-0c2c-43f6-a5b6-1813146037e0" />
+          </operation>
+          <operation Id="ea073599-96de-4ab5-bf6b-2bb1375e61a7" name="itemChange" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="72a16c5a-f4fb-4daa-804f-7ff1396d1ba5" />
+          </operation>
+          <operation Id="b36a61a7-2e41-49a0-b1ba-2695a3e8f400" name="paint" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4821f7ce-27e5-4e08-bde5-d6bb496e74df" />
+          </operation>
+          <operation Id="9814e873-a45d-48e4-86df-83fc06b9aead" name="shape" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="252ba912-77dd-4e83-9a27-ea680eab1b3b" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="65bf723e-72fa-4b17-967e-4458ff430e79" name="CQuadrangleItem" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6bc205f8-4413-4cea-91be-abc0cda070a3" />
+        <generalsInternal>
+          <generalization Id="61f35976-988c-4708-8b7b-ebad34c018b6" isSubstitutable="false">
+            <classMoniker Id="44191cbd-c1cb-4fb8-874a-96216bd6e404" LastKnownName="CFigure" />
+            <elementDefinition Id="1f8dce5a-9c30-4535-a481-79cda1c42e2c" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="83cea32f-b67d-457a-bb9f-c2fbd3cfdf87" name="QPoint mPoints1, mPoints2;" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2506e6a3-9cc2-4985-914b-a4e3dd7f65fc" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="5037cd5e-6caa-4591-80a0-c17e6dc90e67" name="boundingRect" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2fd1f7e3-cf6e-4fc2-ae02-7220fafdf1a4" />
+          </operation>
+          <operation Id="b2ec7bd8-bf63-42e2-abcd-91cb2a45788f" name="itemChange" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e99d4426-a7db-4523-a884-68d4cfdd6b19" />
+          </operation>
+          <operation Id="332a62cd-f5b2-48d3-b0de-506c48edf89d" name="paint" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b73e71db-c281-4128-abb8-319a5264ad08" />
+          </operation>
+          <operation Id="c6a59fd5-f5f2-49a3-94bd-8fcb1eb077ec" name="shape" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b6a9a600-cc82-4da4-8516-b34510bd9fe9" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3b58888e-cbf8-41e4-8125-0026c2e8365c" name="CEllipceItem" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ad7f38de-82a7-442b-8f30-b0f1c32ed986" />
+        <generalsInternal>
+          <generalization Id="1c555dbb-7ef9-4cd9-84bc-1f0f550f59ec" isSubstitutable="false">
+            <classMoniker Id="44191cbd-c1cb-4fb8-874a-96216bd6e404" LastKnownName="CFigure" />
+            <elementDefinition Id="17c42e99-9f75-4950-a7ce-f651c9630317" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="3dc1eb6d-385b-45a8-89a2-3491eb15a99f" name="QPoint mPoints1, mPoints2;" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="46dda790-e50d-4581-a641-806af366d262" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="8ba88320-a20b-4855-ae7e-0050184b8699" name="boundingRect" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="eba36209-ae24-4913-b563-ce250e950009" />
+          </operation>
+          <operation Id="5c9c30aa-b599-4085-87dd-d721c588c656" name="itemChange" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="cdf8d8e3-d0ef-4ae8-bc72-78e88d0134cd" />
+          </operation>
+          <operation Id="d39189cc-5e5e-4ac7-81ba-8fd16795c95d" name="paint" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bcddd800-a28e-4324-aee1-1f1bf3fffe1f" />
+          </operation>
+          <operation Id="f677b6c9-6bdf-4537-9277-e21628b6bff0" name="shape" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4e4cde0e-53ff-4e44-857d-3810ace95d58" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="3825b32f-6224-4e64-91c3-9fe31162a46f" name="ModelingProject1">
+    <elementDefinition Id="b2717193-7a6c-49a7-bc92-75d0d52040ce" />
+    <profileInstances>
+      <packageHasProfileInstances Id="f804fd1c-f3fa-45d9-9965-101bdb13664d">
+        <profileInstance Id="380f6eba-bc99-4c00-98a4-b9f0bfeb614f" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="a8e90487-ec91-4792-a096-68b2f6b3bf49">
+        <profileInstance Id="51ca35ed-406c-4a7d-aacb-989fad190645" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="dceddab2-7c38-4b77-a448-a71b3ad2e1ea">
+        <profileInstance Id="fd036c09-7dd4-4a0a-b91e-bcf763542dd8" name="CSharpProfile">
+          <elementDefinition Id="4d091f70-93a1-4188-ad6a-860d5c6b8890" />
+        </profileInstance>
+        <elementDefinition Id="44ffe85c-a26a-425e-988d-384c6e3588c3" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="24f5b98f-c90d-42d1-8d3d-67697d62c389">
+        <profileInstance Id="060abc7b-b63a-46dc-bd91-d0d6e158e00a" name="TextTemplateBindings">
+          <elementDefinition Id="12abda1d-36bf-4094-963a-ae731fa4f5e9" />
+        </profileInstance>
+        <elementDefinition Id="a36a5e84-9b6e-49ff-b6e4-4f990b0fe6c0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

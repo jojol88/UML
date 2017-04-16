@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm12="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="e6feb3c8-1efe-44fc-9c02-866c8e22d4c0" name="UMLComponentDiagram1" linkedPackageId="557f597c-071f-4ec7-adb0-4c02e47eb3f8" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <ownedCommentsInternal>
+    <comment Id="8b7efcfe-11d0-41e2-9156-93845cb949b3">
+      <elementDefinition Id="70150a81-257b-49ca-97bc-6db244210fe1" />
+      <body>+redirect</body>
+    </comment>
+    <comment Id="acce7ecb-a3af-4729-8b0b-99d6c81d19ab">
+      <elementDefinition Id="d6e49063-6347-407c-ade7-41bbff88604f" />
+      <body>+redirect</body>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="26373473-5af0-43f0-819e-f609fbd52f16" name="GUI" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2580fe56-7665-4f57-9961-d78a8bd6ad06" />
+        <suppliersInternal>
+          <dependency Id="9f50aaf6-05a6-4e6b-82d7-3a239c878e15">
+            <componentMoniker Id="6a835b54-4863-483a-ad50-0b97f02e9dc2" LastKnownName="XML Handler" />
+            <elementDefinition Id="9e8c3aff-0d6f-4575-aeb1-9f3b5b12c661" />
+          </dependency>
+          <dependency Id="41d8613f-94b9-426b-b3f1-f130033bbb2f">
+            <componentMoniker Id="fb94bcdd-2229-493e-8e8d-e26ac79add04" LastKnownName="Picture Editor" />
+            <elementDefinition Id="961e5d5a-5c91-441f-bc09-fd11f5832bc1" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="6a835b54-4863-483a-ad50-0b97f02e9dc2" name="XML Handler" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="74f66d30-e166-4ec6-82b1-93ed7df5ba8f" />
+        <suppliersInternal>
+          <dependency Id="5d729f52-0580-44a2-9917-1d3d70cd0be2">
+            <componentMoniker Id="fb94bcdd-2229-493e-8e8d-e26ac79add04" LastKnownName="Picture Editor" />
+            <elementDefinition Id="b06bb88f-f8b3-4f59-9fb5-95bb13a4ec34" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="fb94bcdd-2229-493e-8e8d-e26ac79add04" name="Picture Editor" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ca4742e8-1074-4738-bc0a-ab89283fb6c5" />
+        <suppliersInternal>
+          <dependency Id="8f45f647-e20d-4b89-a71d-75e2e69dae52">
+            <componentMoniker Id="6a835b54-4863-483a-ad50-0b97f02e9dc2" LastKnownName="XML Handler" />
+            <elementDefinition Id="635ffef1-ee6e-4699-8852-70c0cd9799c3" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+  </packagedElements>
+  <package Id="557f597c-071f-4ec7-adb0-4c02e47eb3f8" name="ModelingProject1">
+    <elementDefinition Id="b2717193-7a6c-49a7-bc92-75d0d52040ce" />
+    <profileInstances>
+      <packageHasProfileInstances Id="8335bc51-fc80-4058-89c1-6f37903381d1">
+        <profileInstance Id="378356b6-eef2-4726-b706-088664228497" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="5924b3b2-6998-463b-bd49-c699c03e9e44">
+        <profileInstance Id="d085aa2f-ef48-4ec3-ac3c-83ad5052b1ea" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</componentModel>
